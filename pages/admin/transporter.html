@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Empty Ride - Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../../css/landing-page.css" rel="stylesheet">
+	<!-- datatables CSS -->
+	<link type="text/css" href="../../css/datatables.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script>
+
+	</script>
+
+</head>
+
+<body>
+	<!-- Header -->
+	<div id="header"></div>
+
+    <!-- Page Content -->
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+				<div class="col-lg-12" id="panel">
+                    <h2 class="section-heading">Transporter</h2>
+					<hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+			<div class="row">
+				<div class="col-lg-12">
+					<form>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Client Name</label>
+									<input type="text" name="comp_name" class="form-control" id="autocomplete_from" placeholder="Name"/>
+									<p class="note">Name of the client.</p>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Address Line1</label>
+									<input type="text" name="comp_address" class="form-control" id="autocomplete_to" placeholder="Address"/>
+									<p class="note">Address of the client.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Address Line2</label>
+									<input type="text" name="comp_address" class="form-control" id="autocomplete_to" placeholder="Address"/>
+									<p class="note">Address of the client.</p>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Town/City</label>
+									<input type="text" name="comp_address" class="form-control" id="autocomplete_to" placeholder="Town/City"/>
+									<p class="note">Town/City of the client.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Postcode</label>
+									<input type="text" name="comp_address" class="form-control" id="autocomplete_to" placeholder="Postcode"/>
+									<p class="note">Postcode of the client.</p>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Country</label>
+									<select class = "form-control">
+										<option>Select</option>
+										<option selected>United Kingdom</option>
+									</select>
+									<p class="note">Country client is registered.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Website</label>
+									<input type="text" name="comp_address" class="form-control" id="autocomplete_to" placeholder="www.client.com"/>
+									<p class="note">Website of the client.</p>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Client Logo</label>
+									<input type="file" />
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Subscription Type</label>
+									<select class = "form-control">
+										<option>Select</option>
+										<option selected>Monthly</option>
+										<option>Yearly</option>
+									</select>
+									<p class="note">Current subscription type. <a href="#">Payment history</a>.</p>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Bank Sort Code</label>
+									<input class="form-control" id="user_login" name="sortcode" type="text" placeholder="12 34 45"/>
+									<p class="note">Bank sort code as shown on the card.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Account Number</label>
+									<input class="form-control" id="user_login" name="user[login]" type="text" placeholder="**** **** **** 1234"/>
+									<p class="note">Bank account number.</p>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">CVV</label>
+									<input class="form-control" id="user_login" name="user[login]" type="password" placeholder="123"/>
+									<p class="note">As shown on the back of card.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Expiry Date</label>
+									<input class="form-control" id="user_login" name="user[login]" type="text" placeholder="MM/YYYY"/>
+									<p class="note">Card's expiry date.</p>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label for="email">Postcode</label>
+									<input class="form-control" id="user_login" name="user[login]" type="text" placeholder="IG2 6LQ"/>
+									<p class="note">Postcode registored with this card.</p>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-lg-12">
+								<table id="table_vehicle" class="display">
+								<thead>
+									<tr>
+										<th>Vehicle No</th>
+										<th>Type</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><a href="./vehicle.html">YP64 DFE</a></td>
+										<td>12f Flatbed</td>
+										<td>Active</td>
+									</tr>
+									<tr>
+										<td><a href="./vehicle.html">RT12 SEE</a></td>
+										<td>Refrigerated Container</td>
+										<td>Active</td>
+									</tr>
+								</tbody>
+								</table>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-lg-12">
+								<table id="table_user" class="display">
+								<thead>
+									<tr>
+										<th>User Name</th>
+										<th>Contact No</th>
+										<th>Email</th>
+										<th>Type</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><a href="./t-user-profile.html">Admin User</a></td>
+										<td>020-7867787878</td>
+										<td>someone@something.com</td>
+										<td>Admin</td>
+										<td>Active</td>
+									</tr>
+									<tr>
+										<td><a href="./t-user-profile.html">Plain User</a></td>
+										<td>020-3452525252</td>
+										<td>someone@something.com</td>
+										<td>User</td>
+										<td>Active</td>
+									</tr>
+								</tbody>
+								</table>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="form-group">
+									<label for="email">Comments</label>
+									<textarea class="form-control" rows="5" id="comment"></textarea>
+								</div>
+								<p class="note">Any additional comments by sales/operational team.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="form-group">
+									<input id="flexidays" type="checkbox" checked />
+									<label for="flexidays">&nbsp;&nbsp;Active</label>
+									<p class="note">Uncheck to disable client.</p>
+								</div>
+							</div>
+						</div>
+					</form>
+                </div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="group">
+						<a href="./find-transporter.html" class="btn btn-default btn-lg"><span class="network-name">&larr; Back</span></a>&nbsp;
+						<a href="./transporter.html" class="btn btn-default btn-lg"><span class="network-name">Save</span></a>
+					</div>
+				</div>
+			</div>
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+	<!-- datatables Core JavaScript -->
+	<script type="text/javascript" charset="utf8" src="../../js/datatables.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			//alert("peeyush:"+$(document).path);
+			$("#header").load("../common/header-admin.html");
+			$("#footer").load("../common/footer.html");
+			$('#table_vehicle').DataTable();
+			$('#table_user').DataTable();
+		});
+	</script>
+
+</body>
+
+</html>
